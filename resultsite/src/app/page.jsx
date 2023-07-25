@@ -2,7 +2,15 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Button from "@/components/Button/Button";
 import style from "./page.module.css";
+
+export const metadata = {
+  title: "Home",
+  description: "HomePage of Result Site",
+};
+
+
 export default function Home() {
+  
   return (
     <div className="">
       <div className={style.heading}>
@@ -13,6 +21,9 @@ export default function Home() {
         <Button url={"/govtJobs"} text={"Goverment Jobs"}></Button>
         <Button url={"/result"} text={"Results"}></Button>
       </div>
+      <div className={style.wrapper}>
+
+      
       <div className={style.admitCardSection}>
         <h1 className={style.heading}>Admit Card</h1>
         <div className={style.admitCard}>
@@ -39,6 +50,7 @@ export default function Home() {
           <hr />
           <p className={style.title}>UPRTOU BED Entrance Exam Admit Card 2023</p>
         </div>
+      </div>
       </div>
     </div>
   );

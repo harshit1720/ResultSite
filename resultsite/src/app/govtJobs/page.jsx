@@ -1,5 +1,11 @@
 import React from "react";
 import style from "./govt.module.css"
+export const metadata = {
+  title: "Govt Job",
+  description: "govt job of Result Site",
+};
+
+
 const GovtJob = () => {
   // Sample data for job post dates (you can replace this with actual data from an API or other sources)
   const jobPostDates = [

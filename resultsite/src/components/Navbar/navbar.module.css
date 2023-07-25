@@ -1,15 +1,15 @@
 .container{
   height: 100px;
   display: flex;
-  border-bottom: 1px solid #82CD47;
   margin-bottom: 10px;
+  background-color: #ab183d;
 }
 
 .logo{
     font-weight: bold;
     font-size: 40px;
     padding: 20px;
-    color: #82CD47;
+    color: white
 }
 
 .links{
@@ -21,11 +21,11 @@
 
 }
 .link{
-color: #085817;
+color: white;
 padding: 10px;
 border-radius:40px;
 }
 .link:hover{
-color: white;
-background-color: #82CD47;
+color: #ab183d;
+background-color: white;
 }

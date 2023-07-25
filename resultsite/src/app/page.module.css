@@ -11,12 +11,15 @@
 margin: 30px;
 }
 
+.wrapper{
+  display: flex;
+}
 
 .heading{
   margin: 30px;
 }
 .admitCardSection{
-  border: 2px solid #82cd47;
+  border: 2px solid #ab183d;
   margin: 10px;
 }
 .admitCard{
@@ -33,6 +36,7 @@ margin: 30px;
   padding: 10px;
   text-decoration: underline;
   cursor: pointer;
+  font-size: 0.9rem;
 }
 .hrWithGap {
   border: 0;
