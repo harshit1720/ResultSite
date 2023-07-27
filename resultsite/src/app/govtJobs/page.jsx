@@ -12,17 +12,17 @@ const GovtJob = () => {
     {
       jobTitle: "Bihar Vidhan Parishad Various Post Online Form 2023",
       date: "2023-07-26",
-      viewMoreLink: "/job/1",
+      viewMoreLink: "/govtJobs/1",
     },
     {
       jobTitle: "Army School AWES TGT PGT PRT Online Form 2023",
       date: "2023-07-27",
-      viewMoreLink: "/job/2",
+      viewMoreLink: "/govtJobs/2",
     },
     {
       jobTitle: "Jharkhand SSC Matric Level Online Form 2023",
       date: "2023-07-28",
-      viewMoreLink: "/job/3",
+      viewMoreLink: "/govtJobs/3",
     },
     // Add more entries as needed
   ];
