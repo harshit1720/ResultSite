@@ -27,6 +27,21 @@ const links = [
     title: "Contact Us",
     url: "/contactUs",
   },
+  {
+    id: 5,
+    title: "Answer Key",
+    url: "/answerKey",
+  },
+  {
+    id: 5,
+    title: "Admissions",
+    url: "/admission",
+  },
+  {
+    id: 5,
+    title: "Syllabus",
+    url: "/syllabus",
+  },
   
 ];
 const Navbar = () => {

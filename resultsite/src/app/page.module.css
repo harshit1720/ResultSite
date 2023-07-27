@@ -12,17 +12,20 @@ margin: 30px;
 }
 
 .wrapper{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 20px; /* Gap between columns */
+ 
 }
 
 .heading{
   margin: 30px;
 }
-.admitCardSection{
+.Section{
   border: 2px solid #ab183d;
   margin: 10px;
 }
-.admitCard{
+.desciptions{
   margin: 20px;
 }
 
@@ -43,4 +46,24 @@ margin: 30px;
   height: 1px;
   background-color: #82cd47;
   margin: 20px; /* You can adjust the gap size by changing the '10px' value */
+}
+
+.descriptionArea{
+  border: 2px solid #ab183d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.descriptionArea h2{
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 20xp;
+  background-color: #ab183d;
+  color: white;
+}
+
+.descriptionArea p{
+  text-align: center;
+  margin: 30px;
+  gap: 10px;
 }

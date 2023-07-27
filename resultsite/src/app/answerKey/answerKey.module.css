@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+}
+.table {
+    width: 100% ;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+  }
+  .heading{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  .cell {
+    padding: 10px 20px 10px 10px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+  }
+  .link {
+    color: #007bff;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+  }
